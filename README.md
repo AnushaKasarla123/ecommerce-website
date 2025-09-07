@@ -1,4 +1,4 @@
-# ShopSwift — Assignment Starter
+# ShopSwift — online shopping
 
 A minimal e-commerce single-page app fulfilling the required features.
 
