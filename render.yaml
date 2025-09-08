@@ -1,0 +1,12 @@
+services:
+  - type: static
+    name: ecommerce-frontend
+    env: static
+    branch: main
+    rootDir: client
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    envVars:
+      - key: VITE_API_BASE
+        value: "https://ecommerce-website-3-f9pk.onrender.com/"
+        sync: true
